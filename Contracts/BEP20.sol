@@ -443,12 +443,12 @@ contract PausableToken is StandardToken, Pausable {
 
 contract BEP20Token is PausableToken, MintableToken {
     // public variables
-    string public name = "ABC Token";
-    string public symbol = "ABC";
+    string public name = "Toronto Token";
+    string public symbol = "SIX";
     uint8 public decimals = 18;
 
     constructor() public {
-        totalSupply_ = 10000 * (10 ** uint256(decimals));
+        totalSupply_ = 6170000 * (10 ** uint256(decimals));
     }
 
     function () public payable {
